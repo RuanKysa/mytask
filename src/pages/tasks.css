@@ -1,0 +1,111 @@
+.tasks-container {
+  padding: 1.5rem;
+  background-color: #f9f9f9;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tasks-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.tasks-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.tasks-header-info {
+  display: flex;
+  align-items: center;
+}
+
+.tasks-email {
+  margin-right: 1rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+.tasks-logout {
+  background: #ff6f61;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.tasks-form {
+  margin-bottom: 1.5rem;
+}
+
+.tasks-input,
+.tasks-textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.tasks-textarea {
+  height: 100px;
+}
+
+.tasks-button {
+  background: #4a90e2;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.tasks-button:hover {
+  background: #357abd;
+}
+
+.tasks-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.tasks-item {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tasks-item-title {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.tasks-item-description {
+  margin: 0;
+  color: #666;
+}
+
+.tasks-edit-button {
+  background: #f5a623;
+}
+
+.tasks-edit-button:hover {
+  background: #d48806;
+}
+
+.tasks-delete-button {
+  background: #e94e77;
+}
+
+.tasks-delete-button:hover {
+  background: #d43f5e;
+}

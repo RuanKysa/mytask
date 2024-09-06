@@ -1,0 +1,63 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f4f8;
+    background-image: url('./fundo.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+  }
+  
+  
+  .auth-form {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .auth-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .auth-input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .auth-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+  }
+  
+  .auth-button:hover {
+    background-color: #357abd;
+  }
+  
+  .auth-toggle {
+    background: none;
+    border: none;
+    color: #4a90e2;
+    cursor: pointer;
+    font-size: 0.875rem;
+  }
+  
+  .auth-toggle:hover {
+    text-decoration: underline;
+  }
+  
